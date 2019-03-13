@@ -1,0 +1,40 @@
+{
+  "name": "react-tic-tac-toe-with-hooks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jest-dom": "2.0.3",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-scripts": "2.1.1",
+    "react-testing-library": "5.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "format": "prettier --write \"**/*.+(js|json|css|md|mdx|html)\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run build"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "husky": "^1.1.4",
+    "lint-staged": "^8.0.4",
+    "prettier": "^1.15.2"
+  },
+  "keywords": [],
+  "description": "React's tutorial, but with hooks. For the Egghead.io livestream."
+}
